@@ -1,5 +1,4 @@
-// script.js
-// Email validation function (this was missing)
+
 function validateEmail(email) {
     const emailPattern = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
     return emailPattern.test(email);
